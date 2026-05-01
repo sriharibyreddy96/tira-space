@@ -1,0 +1,49 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Prevent horizontal scroll issues */
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Body styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  color: #111;
+  line-height: 1.5;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Images responsive */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Buttons reset */
+button {
+  font-family: inherit;
+  border: none;
+  outline: none;
+}
+
+/* Section spacing control (optional) */
+section {
+  width: 100%;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
