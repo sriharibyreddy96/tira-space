@@ -16,7 +16,7 @@ const Navbar = () => {
 
       {/* Right Links */}
       <Links>
-        <a href="/">Home</a>
+        <a href="/tira-space">Home</a>
         <a href="/tira-space/about">About</a>
         <a href="/tira-space/services">Services</a>
         <a href="/tira-space/products">Products</a>
@@ -39,7 +39,7 @@ const Navbar = () => {
           exit={{ x: "100%" }}
           transition={{ duration: 0.4 }}
         >
-          <a href="/">Home</a>
+          <a href="/tira-space">Home</a>
           <a href="/tira-space/about">About</a>
           <a href="/tira-space/services">Services</a>
           <a href="/tira-space/products">Products</a>
