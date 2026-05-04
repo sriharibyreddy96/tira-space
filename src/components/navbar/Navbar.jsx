@@ -17,12 +17,12 @@ const Navbar = () => {
       {/* Right Links */}
       <Links>
         <a href="/">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Products</a>
-        <a href="#">Research</a>
-        <a href="#">Careers</a>
-        <a href="#">Contact</a>
+        <a href="/tira-space/about">About</a>
+        <a href="/tira-space/services">Services</a>
+        <a href="/tira-space/products">Products</a>
+        <a href="/tira-space/research">Research</a>
+        <a href="/tira-space/careers">Careers</a>
+        <a href="/tira-space/contact">Contact</a>
       </Links>
 
       {/* Mobile Icon */}
@@ -40,12 +40,12 @@ const Navbar = () => {
           transition={{ duration: 0.4 }}
         >
           <a href="/">Home</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Products</a>
-          <a href="#">Research</a>
-          <a href="#">Careers</a>
-          <a href="#">Contact</a>
+          <a href="/tira-space/about">About</a>
+          <a href="/tira-space/services">Services</a>
+          <a href="/tira-space/products">Products</a>
+          <a href="/tira-space/research">Research</a>
+          <a href="/tira-space/careers">Careers</a>
+          <a href="/tira-space/contact">Contact</a>
         </MobileMenu>
       )}
     </Nav>
@@ -54,7 +54,6 @@ const Navbar = () => {
 
 export default Navbar;
 
-
 /* ================= STYLES ================= */
 
 const Nav = styled.nav`
@@ -62,7 +61,7 @@ const Nav = styled.nav`
   top: 0;
   width: 100%;
   height: 70px; /* ✅ fixed height (no extra gap) */
-  background: #00308F;
+  background: #00308f;
   display: flex;
   align-items: center;
   padding: 0 40px;
@@ -141,7 +140,7 @@ const MobileMenu = styled(motion.div)`
   right: 0;
   width: 260px;
   height: calc(100vh - 70px); /* ✅ no extra space */
-  background: #00308F;
+  background: #00308f;
   display: flex;
   flex-direction: column;
   padding: 30px 20px;
