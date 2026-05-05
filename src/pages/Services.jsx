@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import HardwareDesign from '../components/services/HardwareDesign'
 import SoftwareDevelopment from '../components/services/SoftwareDevelopment'
 import PlatingTech from '../components/services/PlatingTech'
@@ -9,6 +9,12 @@ import ManufacturingSupport from '../components/services/ManufacturingSupport'
 import TechnicalAdvisory from '../components/services/TechnicalAdvisory'
 
 const Services = () => {
+  
+      // ✅ Runs when About page loads
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
   return (
     <>
     <HardwareDesign />

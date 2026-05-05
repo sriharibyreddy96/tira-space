@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import AboutTira from '../components/about/AboutTira'
 import VisionMission from '../components/about/VisionMission'
 import CoreTechnologies from '../components/about/CoreTechnologies'
@@ -9,6 +9,10 @@ import QualityCommitment from '../components/about/QualityCommitment'
 import TeamExpertise from '../components/about/TeamExpertise'
 
 const About = () => {
+    // ✅ Runs when About page loads
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
         <AboutTira />
